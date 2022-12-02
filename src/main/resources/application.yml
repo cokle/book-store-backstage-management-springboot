@@ -1,0 +1,13 @@
+spring:
+  # 配置数据源信息
+  datasource:
+    # 配置连接数据库的各个信息
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_store_backstage_management?characterEncoding=utf-8&userSSL=false
+    username: root
+    password: glxy
+mybatis-plus:
+  # 配置类型别名所对应的包
+  type-aliases-package: com.example.bookstorebackstagemanagement.domain
+server:
+  port: 8080
